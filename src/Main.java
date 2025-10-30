@@ -1,6 +1,4 @@
-import javax.swing.JFrame;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
+import javax.swing.*;
 import java.awt.*;
 
 public class Main {
@@ -13,14 +11,13 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
 
-       ImageIcon icon = new ImageIcon("icon.png");
-       frame.setIconImage(icon.getImage());
        frame.getContentPane().setBackground(Color.white);
 
        JLabel label = new JLabel();
-       label.setIcon(new ImageIcon("icon.png"));
        label.setText("Morse Code Translator");
-       label.setBounds(20,20,800,600);
+       label.setHorizontalTextPosition(SwingConstants.CENTER);
+       label.setForeground(Color.green);
        frame.add(label);
+
     }
 }
