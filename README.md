@@ -20,4 +20,4 @@ A simple **Java Swing application** that allows users to convert text into Morse
 ## How to Run
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/Nishchal-ll/MorseCodeGenerator.git
+   git clone https://github.com/Nishchal-ll/MorseCodeGenerator-Swing.git
