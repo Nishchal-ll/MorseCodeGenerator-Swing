@@ -16,8 +16,10 @@ public class Main {
        JLabel label = new JLabel();
        label.setText("Morse Code Translator");
        label.setHorizontalTextPosition(SwingConstants.CENTER);
-       label.setForeground(Color.green);
+       label.setForeground(Color.black);
        frame.add(label);
-
+       label.setHorizontalAlignment(SwingConstants.CENTER);
+       label.setVerticalAlignment(SwingConstants.TOP);
+        label.setFont(new Font("Arial", Font.BOLD, 36));
     }
 }
