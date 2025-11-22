@@ -10,16 +10,10 @@ public class Main {
         frame.setLocation(550,200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
-
        frame.getContentPane().setBackground(Color.white);
 
-       JLabel label = new JLabel();
-       label.setText("Morse Code Translator");
-       label.setHorizontalTextPosition(SwingConstants.CENTER);
-       label.setForeground(Color.black);
-       frame.add(label);
-       label.setHorizontalAlignment(SwingConstants.CENTER);
-       label.setVerticalAlignment(SwingConstants.TOP);
-        label.setFont(new Font("Arial", Font.BOLD, 36));
+        JTextField inputField = new JTextField();
+        inputField.setBounds(50, 30, 200, 30);
+        frame.add(inputField);
     }
 }
