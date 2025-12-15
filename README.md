@@ -6,19 +6,9 @@ A simple **Java Swing application** that allows users to convert text into Morse
 ---
 
 ## Features
-- User-friendly **GUI** using Java Swing
-- Displays an **icon and project title**
-- Ready to extend for **text-to-Morse code translation**
-
----
-
-## Requirements
-- Java JDK 8 or above
-- IDE such as IntelliJ IDEA, Eclipse, or NetBeans
-
----
-
-## How to Run
-1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/Nishchal-ll/MorseCodeGenerator-Swing.git
+- Converts **letters (A-Z)**, **numbers (0-9)**, and **spaces** into Morse code.
+- Displays the generated Morse code in the GUI.
+- Beginner-friendly GUI using **Java Swing** with:
+  - Input text field
+  - Convert button
+  - Output label
