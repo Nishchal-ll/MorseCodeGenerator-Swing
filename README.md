@@ -1,4 +1,4 @@
-# Morse Code Generator
+# Morse Code Generator (Swing)
 
 A simple **Java Swing application** that allows users to convert text into Morse code. The application features a clean GUI with an icon and project title.
 
